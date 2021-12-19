@@ -1,0 +1,103 @@
+body
+{
+    margin: 0;
+    text-align: center;
+}
+#profile
+{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#welcome
+{
+    z-index : 10
+    overflow: hidden;
+    height: 800px;
+    color: black;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: table;
+    background: linear-gradient(#8ef3f5 0%,#76e8b3 100%);
+    height: 100%;
+    width: 100%;
+}
+.div1
+{
+    display: table-cell;
+    position:relative;
+    text-align: center;
+    vertical-align: middle;
+}
+h1
+{
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: monospace;
+    font-weight: 300;
+}
+#bio
+{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+.line
+{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:8px auto;
+}
+p
+{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+.menu
+{
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 20;
+    cursor: pointer     
+}
+.links
+{
+    float: left;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family: 'Anton', sans-serif;
+    color: blueviolet;
+}
+.links:hover
+{
+    background-color: dodgerblue;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+#contact iframe
+{
+    width: 100%; 
+}
+#contact
+{
+    background-color: cyan;
+}
+.contact1 h3
+{
+    display: inline
+}
+.contact a
+{
+    color:  darkslateblue;
+    text-shadow: none;
